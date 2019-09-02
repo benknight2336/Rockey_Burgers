@@ -1,0 +1,41 @@
+.header{
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    box-shadow: 0 0 25px 0 black;
+    overflow: hidden;
+}
+.header img{
+    height: 80px;
+    margin-left: 15px;
+}
+#myDIV{
+    display: flex;
+    list-style-type: none;
+    margin-left: 10px;
+    padding: 0;
+    height: 100%;
+}
+.navbox{
+    height: 100%;
+}
+.btn {
+    border: none;
+    outline: none;
+    padding: 10px 0 16px 0;
+    height: 100%;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+.active, .btn:hover {
+    background-color: gold;
+}
+.active a, .btn a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+}
