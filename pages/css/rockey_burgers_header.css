@@ -1,3 +1,6 @@
+html{
+    font-family: 'Merriweather', serif;
+}
 .header{
     background-color: #ffffff;
     position: fixed;
@@ -48,4 +51,24 @@
     color: black;
     font-family: sans-serif;
     font-weight: bold;
+}
+body{
+    background-image: url(../../images/background.jpg);
+    background-size: cover;
+    margin: 80px 0 15px 0;
+
+}
+footer{
+    background-color: #ffffff;
+    padding-left: 15px;
+    position: sticky;
+    bottom: 0;
+
+}
+footer img{
+    width: 20px;
+
+}
+footer i{
+    color: blue;
 }
