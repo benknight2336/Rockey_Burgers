@@ -4,49 +4,38 @@ body {
     margin: auto auto;
 }
 .burgerimg{
-    background-image: url("../../images/burger-hero.jpg");
-    height: 100%;
-    background-size: cover;
     margin-top: 80px;
-    padding: auto auto;
+    background-image: url("../../images/burger-hero.jpg");
+    background-color: red;
+    height:350px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
 }
 .main{
     display: flex;
-    justify-content: space-between;
-    height: 100%;
-    margin-top: 15px;
-    flex-wrap: wrap;
+    margin-top: 10px;
 }
 .left{
     background-color: #ffffff;
-    width: 60%;
-    flex-direction: column;
-    margin: 15px auto 15px auto;
-    padding: 0 5px 0 5px;
-    border-radius: 10px;
-    box-shadow: 1px 1px 15px 3px black;
 }
 .right{
-    margin: 15px auto 0 auto;
-    width: 30%;
 }
 .video{
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 15px;
-    width: 100%;
+
+
+}
+video{
+
 }
 .testimonials{
-    background-color: #ffffff;
-    padding: 1px 0 5px 5px;
-    border-radius: 10px;
-    box-shadow: 1px 1px 15px 3px black;
+    background-color: pink;
 }
 .testimonials h3{
-    margin-bottom: 6px;
-    margin-top: 5px;
+
 }
 .testimonials h4{
-    margin-top: 6px;
-    margin-bottom: 10px;
+
 }
