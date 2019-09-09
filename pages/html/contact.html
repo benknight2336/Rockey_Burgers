@@ -1,22 +1,76 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Rockey Burgers</title>
-        <link href="../css/rockey_burgers_contact.css" type="text/css" rel="stylesheet">
-        <link href="../css/rockey_burgers_header&footer.css" type="text/css" rel="stylesheet">
-    </head>
-    <body>
-        <div class="header">
-            <div id="myDIV">
-                <a href="index.html"><img src="../../images/rockeyburgers01-logo.png" alt="Rockey Burger Logo"></a>
-            </div>
-            <div class="navbox">
-                <button class="btn active"><a href="index.html">Home</a></button>
-                <button class="btn"><a href="menu.html">Menu</a></button>
-                <button class="btn"><a href="contact.html">Contact</a></button>
-            </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rockey Burgers</title>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" integrity="sha384-rtJEYb85SiYWgfpCr0jn174XgJTn4rptSOQsMroFBPQSGLdOC5IbubP6lJ35qoM9" crossorigin="anonymous">
+    <link href="../css/rockey_burgers_contact.css" rel="stylesheet" type="text/css">
+    <link href="../css/rockey_burgers_header&footer.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div id="myDIV">
+            <a href="index.html"><img src="../../images/rockeyburgers01-logo.png" alt="Rockey Burger Logo"></a>
         </div>
-    </body>
+        <div class="navbox">
+            <a href="index.html"><button class="btn">Home</button></a>
+            <a href="menu.html"><button class="btn">Menu</button></a>
+            <a href="contact.html"><button class="btn active">Contact</button></a>
+        </div>
+    </div>
+    <div class="burgerimg"></div>
+    <div class="container">
+        <div class="contactLayout">
+            <form method="post">
+                <h2>Contact Us</h2>
+                <div>
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName">
+                </div>
+                <div>
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="phone">Phone Number:</label>
+                    <input type="number" id="phone" name="phone">
+                </div>
+                <p>How would you like us to contact you?</p>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="radio" id="contactemail" name="contact-preference">
+                </div>
+                <div>
+                    <label for="phone">Phone</label>
+                    <input type="radio" id="contactphone" name="contact-preference">
+                </div>
+                <div>
+                    <label for="about">Message to Us</label>
+                    <textarea id="about" name="about>">Please be Descriptive</textarea>
+                </div>
+                <div>
+                    <input type="reset" id="reset" value="reset">
+                    <input type="submit" id="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+       <div class="mapcontatiner">
+          <div class="map">
+              <h2>Find us Here:</h2>
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d194956.15567216597!2d-111.78547645059668!3d40.22707905360982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf22538e65428cabd!2sMountainland%20Technical%20College%3A%20Orem%20Campus!5e0!3m2!1sen!2sus!4v1568049419126!5m2!1sen!2sus" allowfullscreen=""></iframe>
+          </div>
+       </div>
+    </div>
+</body>
+<footer>
+    <a href="#"><i id="instagram" class="fab fa-instagram"></i></a>
+    <a href="#"><i id="facebook" class="fab fa-facebook"></i></a>
+    <a href="#"><i id="twitter" class="fab fa-twitter"></i></a>
+</footer>
 </html>

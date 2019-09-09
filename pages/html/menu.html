@@ -1,34 +1,76 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Rockey Burgers</title>
-        <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
-        <link href="../css/rockey_burgers_menu.css" type="text/css" rel="stylesheet">
-        <link href="../css/rockey_burgers_header&footer.css" type="text/css" rel="stylesheet">
-    </head>
-    <body>
-        <div class="header">
-            <div id="myDIV">
-                <a href="index.html"><img src="../../images/rockeyburgers01-logo.png" alt="Rockey Burger Logo"></a>
-            </div>
-            <div class="navbox">
-                <button class="btn"><a href="index.html">Home</a></button>
-                <button class="btn active"><a href="menu.html">Menu</a></button>
-                <button class="btn"><a href="contact.html">Contact</a></button>
-            </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rockey Burgers</title>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" integrity="sha384-rtJEYb85SiYWgfpCr0jn174XgJTn4rptSOQsMroFBPQSGLdOC5IbubP6lJ35qoM9" crossorigin="anonymous">
+    <link href="../css/rockey_burgers_menu.css" rel="stylesheet" type="text/css">
+    <link href="../css/rockey_burgers_header&footer.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div id="myDIV">
+            <a href="index.html"><img src="../../images/rockeyburgers01-logo.png" alt="Rockey Burger Logo"></a>
         </div>
-        <div class="burgerimg">
-            <h1>Rockey Burger House</h1>
+        <div class="navbox">
+            <a href="index.html"><button class="btn">Home</button></a>
+            <a href="menu.html"><button class="btn active">Menu</button></a>
+            <a href="contact.html"><button class="btn">Contact</button></a>
         </div>
+    </div>
+    <div class="burgerimg"></div>
+    <div class="container">
         <div class="menu">
-            <h1>Menu</h1>
             <div class="burgers">
                 <ul>
-                    <li>Rockey Burger Special</li>
+                    <li id="burgers">Burgers
+                        <ul>
+                            <li>Rockey Burger Deluxe</li>
+                            <li>Double Rockey Burger Deluxe</li>
+                            <li>Barbecue Burger</li>
+                            <li>Rock Your Socks Off Burger</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="sides">
+                <ul>
+                    <li id="sides">Sides
+                        <ul>
+                            <li>French Fries</li>
+                            <li>Sweet Potato Fries</li>
+                            <li>Cheese Fries</li>
+                            <li>Tater Tots</li>
+                            <li>Salad</li>
+                            <li>Soup</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="drinks">
+                <ul>
+                    <li id="drinks">Drinks
+                        <ul>
+                            <li>Water</li>
+                            <li>Coke</li>
+                            <li>Sprite</li>
+                            <li>Root Beer</li>
+                            <li>Mountain Dew</li>
+                            <li>Monster</li>
+                            <li>Bang</li>
+                            <li>RedBull</li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </div>
-    </body>
+    </div>
+</body>
+<footer>
+    <a href="#"><i id="instagram" class="fab fa-instagram"></i></a>
+    <a href="#"><i id="facebook" class="fab fa-facebook"></i></a>
+    <a href="#"><i id="twitter" class="fab fa-twitter"></i></a>
+</footer>
 </html>

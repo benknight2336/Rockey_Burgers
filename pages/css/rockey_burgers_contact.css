@@ -1,5 +1,52 @@
 body{
     background-image: url(../../images/background.jpg);
     background-size: cover;
-    margin-top: 80px;
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+form{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 5px 9px 3px rgba(0,0,0,0.58);
+}
+label{
+    width: 100px;
+}
+form > div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+input, selector, textarea{
+    width: 250px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 10px;
+}
+textarea{
+    width: 350px;
+    height: 175px;
+}
+.mapcontatiner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.map{
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+iframe{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 4px 5px 9px 3px rgba(0,0,0,0.58);
+}
+.map h2 {
+    margin: 10px;
 }

@@ -1,14 +1,49 @@
 body{
     background-image: url(../../images/background.jpg);
     background-size: cover;
-    margin: 80px 0 0 0;
+    margin: 0;
     font-size: 25px;
 }
-.menu{
+.container{
+    background-color: pink;
     display: flex;
-    justify-content: center;
+    justify-content: center;}
+.menu{
     background-color: #ffffff;
     border-radius: 10px;
-    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+.burgers{
+    background-color: green;
+    width: 33%;
+    border: 2px solid #000000;
+}
+.burgers ul{
+    padding-left: 10px;
+}
+.sides {
+    background-color: blue;
+    width: 33%;
+    border: 2px solid #000000;
+}
+.drinks{
+    background-color: red;
+    width: 33%;
+    border: 2px solid #000000;
 
+}
+#burgers{
+    list-style-type: none;
+}
+#burgers li{
+    border: 1px dashed #000000;
+
+}
+#sides{
+    list-style-type: none;
+}
+#drinks{
+    list-style-type: none;
 }
