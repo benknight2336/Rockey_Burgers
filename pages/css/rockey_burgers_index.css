@@ -21,6 +21,15 @@ body {
 .aboutus{
     padding: 5px 10px;
 }
+.poem{
+    display: flex;
+    justify-content: center;
+}
+.red{
+    width: 50%;
+    color: red;
+    text-align: center;
+}
 .reasons{
     padding: 5px 10px;
 }

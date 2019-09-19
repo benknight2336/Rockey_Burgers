@@ -5,37 +5,84 @@ body{
 }
 .container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
-form{
+.holder{
+    margin: 10px 10px;
+}
+.subscribe{
     background-color: #ffffff;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     border-radius: 10px;
-    box-shadow: 4px 5px 9px 3px rgba(0,0,0,0.58);
+    height: fit-content;
 }
-label{
-    width: 100px;
+.subscribe h2, h4{
+    padding-left: 15px;
 }
-form > div{
+.subscribe > div{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
 }
-input, selector, textarea{
-    width: 250px;
-    padding: 12px 20px;
+label, input, selector, textarea{
+    padding: 10px;
     margin: 8px 0;
     border-radius: 10px;
 }
-textarea{
-    width: 350px;
-    height: 175px;
+.jobs{
+    padding: 5px;
 }
-.mapcontatiner{
+.workhist{
+    padding: 10px;
+}
+.workhist h2{
+    margin-bottom: 10px;
+}
+.workhist textarea{
+    width: 45%;
+    height: 100px;
+}
+#daytime, #evenings, #anytime{
+    width: fit-content;
+}
+.availability{
+    display: flex;
+    flex-direction: column;
+}
+.jobs{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 10px;
+    width: 50%;
+}
+.jobs h2, h4, p{
+    padding-left: 15px;
+}
+.jobs > div {
+    display: flex;
+    flex-wrap: wrap;
+}
+input{
+    width: 50%;
+}
+.greatfit h2{
+    margin-bottom: 10px;
+}
+.greatfit textarea{
+    width: 100%;
+    height: 100px;
+    margin-top: 0;
+}
+mapcontatiner{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-left: 10px;
+    width: fit-content;
+    margin-top: 10px;
 }
 .map{
     background-color: #ffffff;
@@ -49,4 +96,16 @@ iframe{
 }
 .map h2 {
     margin: 10px;
+}
+table{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+thead tr th{
+    font-size: 20px;
+    padding-bottom: 10px;
 }

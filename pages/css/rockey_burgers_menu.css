@@ -2,48 +2,52 @@ body{
     background-image: url(../../images/background.jpg);
     background-size: cover;
     margin: 0;
+    padding: 0;
     font-size: 25px;
 }
-.container{
-    background-color: pink;
-    display: flex;
-    justify-content: center;}
 .menu{
-    background-color: #ffffff;
-    border-radius: 10px;
+    font-size: 60px;
+    margin: 15px 0 5px 30px;
+    background-color: #f1f1f1;
     display: flex;
-    justify-content: space-around;
-    width: 80%;
+    width: fit-content;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 20px 0 rgba(0,0,0,0.75);
 }
-.burgers{
-    background-color: green;
-    width: 33%;
-    border: 2px solid #000000;
+.title{
+    position: relative;
+    top: 250px;
+    left: 250px;
+    font-size: 50px;
+    font-weight: bold;
 }
-.burgers ul{
-    padding-left: 10px;
+.parallax1{
+    box-shadow: 0 -5px 20px 0 rgba(0,0,0,0.75);
+    background-image: url("../../images/louis-hansel-V4PiMv9EcJI-unsplash.jpg");
+    min-height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.sides {
-    background-color: blue;
-    width: 33%;
-    border: 2px solid #000000;
-}
-.drinks{
-    background-color: red;
-    width: 33%;
-    border: 2px solid #000000;
 
+.parallax2{
+    box-shadow: 0 -5px 20px 0 rgba(0,0,0,0.75);
+    background-image: url("../../images/christopher-flowers-zOdR2lfDyzA-unsplash.jpg");
+    min-height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-#burgers{
-    list-style-type: none;
-}
-#burgers li{
-    border: 1px dashed #000000;
 
-}
-#sides{
-    list-style-type: none;
-}
-#drinks{
-    list-style-type: none;
+.parallax3{
+    box-shadow: 0 -5px 20px 0 rgba(0,0,0,0.75);
+    background-image: url("../../images/soft-drink-2741251_1920.jpg");
+    min-height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
