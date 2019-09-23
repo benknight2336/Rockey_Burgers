@@ -12,7 +12,7 @@ body{
     margin: 10px 10px;
 }
 .subscribe{
-    background-color: #ffffff;
+    background-color: #fefdf8;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -33,16 +33,23 @@ label, input, selector, textarea{
 }
 .jobs{
     padding: 5px;
+    height: fit-content;
 }
 .workhist{
     padding: 10px;
+}
+.workhist div{
+    display: flex;
+    flex-wrap: wrap;
 }
 .workhist h2{
     margin-bottom: 10px;
 }
 .workhist textarea{
-    width: 45%;
+    width: 40%;
     height: 100px;
+    padding-left: 10px;
+    margin-left: 10px;
 }
 #daytime, #evenings, #anytime{
     width: fit-content;
@@ -52,7 +59,7 @@ label, input, selector, textarea{
     flex-direction: column;
 }
 .jobs{
-    background-color: #ffffff;
+    background-color: #fefdf8;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
@@ -85,7 +92,7 @@ mapcontatiner{
     margin-top: 10px;
 }
 .map{
-    background-color: #ffffff;
+    background-color: #fefdf8;
     border-radius: 10px;
 }
 iframe{
@@ -102,10 +109,41 @@ table{
     flex-direction: column;
     margin-top: 20px;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #fefdf8;
     border-radius: 10px;
 }
 thead tr th{
     font-size: 20px;
     padding-bottom: 10px;
+}
+.faq{
+    background-color: #fefdf8;
+    display: flex;
+    justify-content: center;
+}
+.faq button{
+    width: 200px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.expensive, .where{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.expensive, .where div{
+    width: 30%;
+    background-color: #fefdf8;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0;
+    box-shadow: 0 0 42px 5px rgba(0,0,0,0.75);
+
+}
+.expensive, where p{
+    padding: 0;
+}
+#whysoexpensive, #comesfrom{
+    margin-bottom: 10px;
 }
