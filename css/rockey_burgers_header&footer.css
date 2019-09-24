@@ -59,7 +59,7 @@ button{
 }
 .burgerimg {
     margin-top: 80px;
-    background-image: url("../../images/burger-hero.jpg");
+    background-image: url("../images/burger-hero.jpg");
     background-color: red;
     height: 350px;
     background-size: cover;

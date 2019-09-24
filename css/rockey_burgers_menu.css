@@ -1,5 +1,5 @@
 body{
-    background-image: url(../../images/background.jpg);
+    background-image: url(../images/background.jpg);
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -44,7 +44,7 @@ body{
 }
 .parallax1{
     box-shadow: 0 -5px 20px 0 rgba(0,0,0,0.75);
-    background-image: url("../../images/louis-hansel-V4PiMv9EcJI-unsplash.jpg");
+    background-image: url("../images/louis-hansel-V4PiMv9EcJI-unsplash.jpg");
     min-height: 350px;
     background-attachment: fixed;
     background-position: center;
@@ -54,7 +54,7 @@ body{
 
 .parallax2{
     box-shadow: 0 -5px 20px 0 rgba(0,0,0,0.75);
-    background-image: url("../../images/christopher-flowers-zOdR2lfDyzA-unsplash.jpg");
+    background-image: url("../images/christopher-flowers-zOdR2lfDyzA-unsplash.jpg");
     min-height: 350px;
     background-attachment: fixed;
     background-position: center;
@@ -64,7 +64,7 @@ body{
 
 .parallax3{
     box-shadow: 0 -5px 20px 0 rgba(0,0,0,0.75);
-    background-image: url("../../images/soft-drink-2741251_1920.jpg");
+    background-image: url("../images/soft-drink-2741251_1920.jpg");
     min-height: 350px;
     background-attachment: fixed;
     background-position: center;
@@ -73,7 +73,7 @@ body{
 }
 .parallax4{
     box-shadow: 0 -5px 20px 0 rgba(0,0,0,0.75);
-    background-image: url("../../images/brenda-godinez-AAHdL8gp5b8-unsplash.jpg");
+    background-image: url("../images/brenda-godinez-AAHdL8gp5b8-unsplash.jpg");
     min-height: 350px;
     background-attachment: fixed;
     background-position: center;
@@ -122,11 +122,12 @@ body{
     transition: transform .2s;
     cursor: pointer;
     margin-bottom: 15px;
+    padding: 10px;
 }
 .Q1 h4:hover, .Q2 h4:hover{
     transform: scale(1.03);
 }
 .Q1 p, .Q2 p{
-    font-size: 14px;
+    font-size: 16px;
     padding: 5px;
 }
