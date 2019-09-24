@@ -127,23 +127,3 @@ thead tr th{
     margin-bottom: 10px;
     margin-top: 10px;
 }
-.expensive, .where{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-.expensive, .where div{
-    width: 30%;
-    background-color: #fefdf8;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 0;
-    box-shadow: 0 0 42px 5px rgba(0,0,0,0.75);
-
-}
-.expensive, where p{
-    padding: 0;
-}
-#whysoexpensive, #comesfrom{
-    margin-bottom: 10px;
-}

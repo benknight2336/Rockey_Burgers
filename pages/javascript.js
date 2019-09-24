@@ -1,16 +1,18 @@
 function myFunction() {
-    var x = document.getElementById("whysoexpensive");
-    if (x.style.display === "none") {
+   let x = document.getElementById("q1hideshow");
+    if(x.style.display === "none"){
         x.style.display = "block";
-    } else {
+    }
+    else {
         x.style.display = "none";
     }
 }
 function myFunction2() {
-    var x = document.getElementById("comesfrom");
-    if (x.style.display === "none") {
+    let x = document.getElementById("q2hideshow");
+    if(x.style.display === "none"){
         x.style.display = "block";
-    } else {
+    }
+    else {
         x.style.display = "none";
     }
 }
